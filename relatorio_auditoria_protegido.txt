@@ -1,0 +1,32 @@
+root@ubuntu:~/relatorios/sessao3$ cat /root/relatorio_auditoria.txt
+===== RELATORIO DE AUDITORIA - CVTECH Lda. =====
+Data: Thu Oct 15 20:54:38 UTC 2026
+--- ESTRUTURA DA EMPRESA ---
+/root/empresa/financas/backup/orcamento_2026.bak
+/root/empresa/financas/orcamento_2026.txt
+/root/empresa/rh/relatorio_fev.txt
+/root/empresa/rh/arquivo_2026/relatorio_jan.txt
+/root/empresa/rh/relatorio_mar.txt
+/root/empresa/rh/contrato_alice_v1.txt
+/root/empresa/ti/erros.log
+/root/empresa/ti/config.log
+/root/empresa/ti/deploy.sh
+/root/empresa/ti/acessos.log
+--- ERROS NOS LOGS DE TI ---
+2026-10-12 08:05 ERRO falha de conexão à base de dados
+2026-10-12 08:15 ERRO timeout na API REST após 30s
+2026-10-12 08:25 ERRO autenticação falhou para o utilizador admin
+2026-10-12 08:26 ERRO autenticação falhou para o utilizador admin
+2026-10-12 08:27 ERRO autenticação falhou para o utilizador root
+2026-10-12 08:50 ERRO serviço de email não responde
+Total de erros: 6
+--- CREDENCIAIS EM TEXTO CLARO ---
+/root/empresa/ti/config.log:5:DB_PASSWORD=REMOVIDA
+/root/empresa/ti/config.log:6:# Política: a password deve ter pelo menos 12 caracteres
+/root/empresa/ti/config.log:8:smtp_password=REMOVIDA
+/root/empresa/ti/deploy.sh:5:Password=REMOVIDA
+--- IPS COM MAIS FALHAS DE LOGIN ---
+      6 ip=203.0.113.7
+      2 ip=198.51.100.23
+      2 ip=10.0.0.12
+      1 ip=192.0.2.44
