@@ -1,0 +1,25 @@
+===== AUDITORIA DE CONTAS - CVTECH Lda. =====
+
+Data: 16/10/2026
+
+--- CONTAS COM SHELL BASH ---
+
+root:x:0:0:root:/root:/bin/bash
+
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+
+alice:x:1001:1004 Fortes:/home/alice:/bin/bash
+
+bruno:x:1002:1005 Lima:/home/bruno:/bin/bash
+
+carla:x:1003:1006 Santos:/home/carla:/bin/bash
+
+--- ADMINISTRADORES E DEPARTAMENTOS ---
+
+sudo:x:27,bruno
+
+rh:x:1001
+
+ti:x:1002
+
+financas:x:1003
