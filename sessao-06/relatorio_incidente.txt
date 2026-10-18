@@ -1,0 +1,30 @@
+root@ubuntu:~/relatorios/sessao6$ cat ~/relatorios/sessao6/relatorio_incidente.txt
+printf '%s\n' \
+'===== RELATORIO DE INCIDENTE - CVTECH Lda. =====' \
+'Responsavel: Ricardo dos Santos' \
+'Data: 18/10/2026' \
+'' \
+'1. INCIDENTE IDENTIFICADO' \
+'O processo cvtech-sync.sh consumia cerca de 98% da CPU.' \
+'Foi registado um erro indicando CPU acima de 95%.' \
+'' \
+'2. ANALISE DOS LOGS' \
+'Erros registados: 1' \
+'Avisos registados: 139' \
+'Os logs foram consultados com grep e journalctl.' \
+'' \
+'3. ACOES CORRETIVAS' \
+'O processo cvtech-sync.sh foi terminado com kill.' \
+'O processo cvtech-relatorio.sh foi terminado com kill -9.' \
+'O processo cvtech-monitor.sh foi encerrado.' \
+'' \
+'4. ESTADO FINAL' \
+'Nenhum processo CVTECH permaneceu ativo apos a verificacao.' \
+'Os logs registaram a normalizacao da CPU.' \
+'' \
+'5. CONCLUSAO E RECOMENDACOES' \
+'Causa: consumo elevado da CPU pelo processo cvtech-sync.sh.' \
+'Acao: encerramento dos processos relacionados com o incidente.' \
+'Recomendacao: monitorizar a CPU e consultar regularmente os logs.' \
+'===== FIM DO RELATORIO =====' \
+> ~/relatorios/sessao6/relatorio_incidente.txt
