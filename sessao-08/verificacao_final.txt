@@ -1,0 +1,16 @@
+VERIFICAÇÃO FINAL — SESSÃO 08
+Desafio Final CVTECH
+Módulo: Segurança Linux & Ops
+
+Resultado registado: 6/6 missões concluídas.
+
+Missão 1: Ficheiros ocultos — CONCLUÍDA
+Missão 2: Análise de logs — CONCLUÍDA
+Missão 3: Permissões de ficheiros — CONCLUÍDA
+Missão 4: Utilizadores e grupos — CONCLUÍDA
+Missão 5: Gestão de processos — CONCLUÍDA
+Missão 6: Restauro de backup — CONCLUÍDA
+
+Evidência visual: sessao8_verificacao.png
+
+Nota: este ficheiro resume o resultado da verificação registado durante a sessão prática.
