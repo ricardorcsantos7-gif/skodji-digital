@@ -27,8 +27,7 @@ Aplicar os conhecimentos adquiridos nas sessões de Segurança Linux & Ops atrav
 - `relatorio_final.txt` — relatório das missões.
 - `verificacao_final.txt` — resultado da verificação.
 
-A captura de ecrã da verificação final será adicionada ao repositório como evidência visual.
-
+A captura de ecrã da verificação final está incluída no repositório como evidência visual, através do ficheiro sessao8_verificacao.png.
 ## Conclusão
 
 O desafio permitiu praticar comandos Linux, análise de logs, permissões, gestão de utilizadores e processos, e restauro de backups. Estas tarefas reforçaram a importância da segurança, da verificação dos resultados e do registo das evidências.
