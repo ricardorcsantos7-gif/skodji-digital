@@ -1,0 +1,39 @@
+RELATÓRIO FINAL — SESSÃO 08
+Desafio Final CVTECH
+Formação: Skodji Digital — Percurso Activation
+Módulo: Segurança Linux & Ops
+Ambiente: Ubuntu / KillerCoda
+
+MISSÃO 1 — FICHEIROS OCULTOS
+Objetivo: localizar a nota escondida.
+Resultado: missão concluída.
+Chave: C1-AF3457
+
+MISSÃO 2 — ANÁLISE DE LOGS
+Objetivo: analisar o registo do servidor.
+Resultado: 301 linhas analisadas e 42 ocorrências de ERRO identificadas.
+Chave: C2-C1AF10
+
+MISSÃO 3 — PERMISSÕES
+Objetivo: configurar permissões seguras para o relatório.
+Resultado: permissões 640 aplicadas.
+Chave: C3-9B3D81
+
+MISSÃO 4 — UTILIZADORES E GRUPOS
+Objetivo: verificar o utilizador auditor e o grupo auditores.
+Resultado: utilizador e grupo verificados.
+
+MISSÃO 5 — GESTÃO DE PROCESSOS
+Objetivo: identificar e terminar o processo do indexador.
+Resultado: processo terminado.
+Chave: C5-2710A8
+
+MISSÃO 6 — RESTAURO DE BACKUP
+Objetivo: decifrar o arquivo e verificar o restauro.
+Resultado: missão concluída.
+Chave: C6-F300DB
+
+RESULTADO FINAL
+Verificação apresentada: 6 de 6 missões concluídas.
+
+Nota: este relatório foi reconstruído a partir dos resultados registados durante a sessão prática.
